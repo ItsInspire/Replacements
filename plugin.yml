@@ -1,0 +1,14 @@
+name: HypixelReplacements
+author: ItsInspire
+api: 3.0.0
+version: 1.0.0
+main: ItsInspire\Main
+
+commands:
+  rmp:
+    usage: /rmp {PLAYER} {MESSAGE}
+    permission: rmp.usage
+    
+permissions:
+  bypass.replacements:
+    default: false
